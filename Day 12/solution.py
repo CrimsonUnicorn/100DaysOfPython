@@ -31,7 +31,7 @@ def game():
   turns = set_difficulty()
 
   user_guess=0
-  while turns>0 or chosen_num != user_guess:
+  while chosen_num != user_guess:
     print(f"You have {turns} attempts remaining to guess the number.")
     user_guess = int(input("Make a guess: "))
     turns = check_answer(user_guess, chosen_num, turns)
