@@ -1,0 +1,1 @@
+coffee_maker.is_resource_sufficient(drink)
